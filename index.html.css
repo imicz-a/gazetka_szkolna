@@ -49,7 +49,7 @@ body{
   position: relative;
   text-align: center;
   font-size: 1.5vw;
-  top: 30px;
+  top: 50px;
   width: 50%;
   height: 10%;
   display: block;
@@ -59,7 +59,7 @@ body{
 .latestarticle img{
   position: relative;
   text-align: center;
-  top: 30px;
+  top: 50px;
   font-size: 2vw;
   width: 10%;
   height: auto;
@@ -69,12 +69,23 @@ body{
 }
 .latestarticle h1{
   position: relative;
-  top: 30px;
+  top: 50px;
   text-align: center;
   font-size: 2vw;
+}
+.othersites p{
+  position: relative;
+  text-align: center;
+  font-size: 1.5vw;
+  top: 50px;
+  width: 50%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer{
   position: relative;
   font-size: 1vw;
-  top: 50px;
+  top: 200px;
 }
