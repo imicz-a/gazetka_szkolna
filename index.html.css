@@ -75,5 +75,6 @@ body{
 }
 footer{
   position: relative;
+  font-size: 1vw;
   top: 50px;
 }
