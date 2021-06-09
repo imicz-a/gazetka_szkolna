@@ -1,7 +1,7 @@
 /* Add a black background color to the top navigation */
 .navbar {
   background-color: #333;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 /* Style the links inside the navigation bar */
@@ -30,22 +30,50 @@ body{
 	font-family: "helvetica", helvetica, serif;
   background-color: #FAFAFA;
 }
-main img{
-  position: absolute;
-  right: 10%;
-  top: 10%;
+.aboutus img{
+  position: relative;
+  left: 50%;
   width: 40%;
+  top: 30px;
   height: auto;
 }
-main p{
+.aboutus p{
   position: absolute;
-  left: 10%;
   top: 10%;
-  font-size: 2vw;
+  left: 10%;
+  font-size: 1.5vw;
   width: 38%;
   height: 10%;
 }
+.latestarticle p{
+  position: relative;
+  text-align: center;
+  font-size: 1.5vw;
+  top: 30px;
+  width: 50%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.latestarticle img{
+  position: relative;
+  text-align: center;
+  top: 30px;
+  font-size: 2vw;
+  width: 10%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.latestarticle h1{
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-size: 2vw;
+}
 footer{
-  position: absolute;
-  bottom: 10px;
+  position: relative;
+  top: 50px;
 }
